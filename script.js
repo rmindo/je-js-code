@@ -4,7 +4,7 @@ var script = (function() {
     var factory = {};
 
 
-    // Trigger click event with id from the DOM if hash is called
+    // When hash is being called it trigger the click to the associated id from the DOM
     if( typeof location.hash !== 'undefined' ) {
         
         var hash = location.hash.split('#');
